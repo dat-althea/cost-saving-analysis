@@ -1,5 +1,5 @@
 # Network Inventory Cost Saving Analysis
-Bad data can cost you millions, hence this project aims to identify and remove unnecessary costs by examining our network inventory.
+Bad data can cost you millions, hence this project aims to identify and remove unnecessary costs by analyzing service usage data, identifying and highlighting unused or minimally utilized services, and identifying and reporting instances of duplicate or overlapping services, ensuring optimal cost-efficiency and performance.
 
 ## Problem Statement 
 Due to the lack of internal standard operating process bfore, there are circuits that have been requested for termination that are still being paid up until now. By the end of 2025, we want to save at least 1M USD by identifying those active but unused circuits.
