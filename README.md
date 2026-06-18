@@ -1,10 +1,10 @@
-# 📌Network Inventory Cost Saving Analysis
+# Network Inventory Cost Saving Analysis
 Bad data can cost you millions, hence this project aims to identify and remove unnecessary costs by examining our network inventory.
 
-## 🧩 Problem Statement 
+## Problem Statement 
 Due to the lack of internal standard operating process bfore, there are circuits that have been requested for termination that are still being paid up until now. By the end of 2025, we want to save at least 1M USD by identifying those active but unused circuits.
 
-## 📊 Data Overview
+## Data Overview
 The dataset is simulated using ChatGPT, python, and my knowledge of networking/telecommunication inventory data.
 
 **Type:** `pandas.core.frame.DataFrame`
@@ -40,7 +40,7 @@ First five rows of the dataframe ```cs```:
 |4|CKT-03339|150|Tokyo DC1|London DC1|Cross Connect|Lumen|2021/09/24|23-09-26|60|BILLING|PENDING DECOM|Provisioning|NaN|NaN|61|
 
 
-## ⚙️ Methodology
+## Methodology
 `Data Preprocessing:`
 
 1. No empty values in columns circuit_id, a_end, z_end, product_type, supplier, start_date, monthly_recurring_cost, contract_termn_months, decom_status, and utilization_pct. Values are also in the same format. Note that circuit_id doesn't have to be unique.
